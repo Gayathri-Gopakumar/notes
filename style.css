@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(to right,#3085C3,#AED8CC,#ED9ED6);
+}
+#header h1{
+    text-align: center;
+    color: #FFF6F4;
+    text-shadow: 1px 1px 2px #AED8CC;
+}
+#header{
+    margin-top: 2%;
+}
+#enterNotes{
+   text-align: center;
+   justify-content: center;
+    margin-left: 35%;
+    margin-top: 5%;
+    width: 500px;
+    height: 80px;
+}
+#add{
+    margin-top: 2%;
+}
+
+/* media */
+@media(max-width:576px){
+    #enterNotes{
+        margin-left: 10%;
+        width: 300px;
+    }
+   /* .card{
+        margin-left:0%;
+        width: ;
+    } */
+}
+
+
